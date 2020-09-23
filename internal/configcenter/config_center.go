@@ -133,7 +133,6 @@ func initConfigCenter(ccEndpoint, tenantName string,
 	clientType := config.GlobalDefinition.Ggs.Config.Client.Type
 	if clientType == "" {
 		clientType = DefaultConfigCenter
-
 	}
 
 	var ccObj = &archaius.RemoteInfo{

@@ -8,7 +8,7 @@ require (
 	github.com/dolab/logger v0.0.0-20181130034249-dcb994406102
 	github.com/gin-gonic/gin v1.6.3
 	github.com/go-chassis/foundation v0.1.1-0.20200825060850-b16bf420f7b3
-	github.com/go-chassis/go-archaius v1.3.3
+	github.com/go-chassis/go-archaius v0.24.0
 	github.com/go-chassis/go-chassis v1.7.6 // indirect
 	github.com/go-chassis/go-chassis-config v0.15.0
 	github.com/go-chassis/go-restful-swagger20 v1.0.2-0.20191029071646-8c0119f661c5
