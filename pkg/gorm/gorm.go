@@ -31,7 +31,7 @@ type Config struct {
 	DebugSQL     bool   `yaml:"debug_sql"`
 }
 
-// Client return a gorm' Client connected to the mysql-server of {name}
+// Client  return a gorm' Client connected to the mysql-server of {name}
 func Client(name string) *gorm.Client {
 	return getClient(name)
 }
