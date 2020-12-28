@@ -23,9 +23,12 @@ require (
 	github.com/jpillora/opts v1.1.2
 	github.com/jpillora/overseer v0.0.0-20190427034852-ce9055846616
 	github.com/kardianos/osext v0.0.0-20190222173326-2bc1f35cddc0
+	github.com/leon-gopher/discovery v1.0.1
+	github.com/leon-gopher/gtracing v1.0.1
+	github.com/leon-gopher/qulibs v1.0.3
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/nsqio/go-nsq v1.0.7
-	github.com/opentracing/opentracing-go v1.1.0
+	github.com/opentracing/opentracing-go v1.2.0
 	github.com/openzipkin/zipkin-go v0.2.2 // indirect
 	github.com/patrickmn/go-cache v2.1.0+incompatible
 	github.com/pkg/errors v0.8.1
@@ -35,7 +38,6 @@ require (
 	github.com/smartystreets/goconvey v1.6.4
 	github.com/spf13/viper v1.6.1 // indirect
 	github.com/stretchr/testify v1.4.0
-	github.com/uber/jaeger-client-go v2.20.1+incompatible // indirect
 	github.com/uber/jaeger-lib v2.2.0+incompatible // indirect
 	go.uber.org/atomic v1.5.0 // indirect
 	go.uber.org/automaxprocs v1.2.0
@@ -45,9 +47,6 @@ require (
 	gopkg.in/go-playground/assert.v1 v1.2.1 // indirect
 	gopkg.in/go-playground/validator.v8 v8.18.2 // indirect
 	gopkg.in/yaml.v2 v2.2.8
-	github.com/leon-gopher/discovery v1.0.1
-	github.com/leon-gopher/gtracing v1.0.1
-	github.com/leon-gopher/qulibs v1.0.1
 )
 
 replace (
