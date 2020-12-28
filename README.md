@@ -74,7 +74,7 @@ service:
 ggs:
   protocols: #[rest, grpc, rest-xxx, grpc-xxx]
     rest: #监听某个端口，提供restful服务
-      listenAddress: "0.0.0.0:8000"
+      listenAddress: "0.0.0.0:8868"
 ```
 
 ### 1.2 如何快速搭建grpc服务？
