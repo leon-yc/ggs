@@ -6,8 +6,8 @@ require (
 	github.com/aws/aws-sdk-go v1.36.31
 	github.com/cenkalti/backoff v2.2.1+incompatible
 	github.com/gin-gonic/gin v1.6.3
-	github.com/go-chassis/foundation v0.2.2
-	github.com/go-chassis/go-archaius v1.2.1
+	github.com/go-chassis/foundation v0.1.1-0.20200825060850-b16bf420f7b3
+	github.com/go-chassis/go-archaius v0.24.0
 	github.com/go-chassis/go-chassis-config v0.15.0
 	github.com/go-chassis/go-restful-swagger20 v1.0.2
 	github.com/go-chassis/openlog v1.1.2
