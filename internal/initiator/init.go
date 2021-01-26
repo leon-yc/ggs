@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/go-mesh/openlogging"
+	"github.com/go-chassis/openlog"
 
 	"github.com/leon-yc/ggs/internal/core/log"
 	"github.com/leon-yc/ggs/internal/pkg/util/fileutil"
@@ -99,5 +99,5 @@ func unmarshalYamlFile(file string, target interface{}) error {
 }
 
 func disableOpenlogging() {
-	openlogging.SetLogger(dummpLogger{})
+	openlog.SetLogger(dummpLogger{})
 }
