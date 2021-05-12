@@ -111,7 +111,7 @@ const (
 	// HeaderXCseContent is constant for header , get some json msg about HeaderSourceName like {"k":"v"}
 	HeaderXCseContent = "x-ggs-context"
 	// HeaderSourceName is constant for header service name for sidecar
-	HeaderXSidecar = "X-Qtt-Meshservice"
+	HeaderXSidecar = "X-Ggs-Meshservice"
 )
 
 const (
