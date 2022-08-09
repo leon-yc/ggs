@@ -3,6 +3,7 @@
 package initiator
 
 import (
+	"github.com/leon-yc/ggs/third_party/forked/jpillora/overseer"
 	"io/ioutil"
 	"os"
 
@@ -88,6 +89,17 @@ func ParseListenAddresses() ([]string, error) {
 		addresses = append(addresses, v.Listen)
 	}
 	return addresses, nil
+}
+
+func RestartConfig() (overseer.Config,error) {
+	file := fileutil.AppConfigPath()
+	cfg := overseer.Config{}
+	err := unmarshalYamlFile(file, &cfg)
+	if err != nil {
+		return cfg, err
+	}
+
+	return cfg, err
 }
 
 func unmarshalYamlFile(file string, target interface{}) error {

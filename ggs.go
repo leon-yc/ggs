@@ -211,10 +211,15 @@ func GraceFork(main func()) {
 		main()
 	}
 
-	overseer.Run(overseer.Config{
-		Program:          prog,
-		Addresses:        addrs,
-		TerminateTimeout: time.Second * 15,
-		Debug:            false,
-	})
+	restart, err := initiator.RestartConfig()
+	if err != nil {
+		panic(err)
+	}
+
+	restart.Program = prog
+	restart.Addresses = addrs
+	restart.TerminateTimeout = time.Second * 15
+	restart.Debug = false
+
+	overseer.Run(restart)
 }
