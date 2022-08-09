@@ -37,7 +37,7 @@ type Config struct {
 	//RestartSignal will manually trigger a graceful restart. Defaults to SIGUSR2.
 	RestartSignal os.Signal
 	//RestartPort will manually trigger a graceful restart by listen 127.0.0.1:{RestartPort}. Defaults to 9527.
-	RestartPort int
+	RestartPort int `yaml:"restart_port" mapstructure:"restart_port"`
 	//TerminateTimeout controls how long overseer should
 	//wait for the program to terminate itself. After this
 	//timeout, overseer will issue a SIGKILL.
