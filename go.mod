@@ -4,7 +4,7 @@ go 1.15
 
 require (
 	github.com/aws/aws-sdk-go v1.36.31
-	github.com/buger/jsonparser v0.0.0-20191004114745-ee4c978eae7e // indirect
+	github.com/buger/jsonparser v1.1.1 // indirect
 	github.com/cenkalti/backoff v2.2.1+incompatible
 	github.com/dolab/colorize v0.0.0-20180106055552-10753a0b4d68 // indirect
 	github.com/dolab/logger v0.0.0-20181130034249-dcb994406102 // indirect
